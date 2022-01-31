@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;0,800;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/">
+          <img
+            class="icon icon--large"
+            src="/Project/images/sillylogo.png"
+            alt=""
+          />
+        </a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="/Project/images/spriteB.svg#arrow"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Hosting</a></li>
+          <li class="nav__item"><a href="#">VPS</a></li>
+          <li class="nav__item"><a href="#">Domain</a></li>
+          <li class="nav__item"><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--cols-2">
+        <header class="block__header hero__content">
+          <h2 class="block__heading">Pirate Finder</h2>
+          <p class="hero__tagline">Now hiring! Great pay! Lots of Booty!</p>
+          <a class="btn btn--accent btn--stretched" href="#">Hire Me! </a>
+        </header>
+        <img class="hero__image" src="/Project/images/ship.png" alt="" />
+      </div>
+    </section>
+
+    <section
+      class="block container block-domain"
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"
+    >
+      <header class="block__header">
+        <h2>What crew do you like the look of?</h2>
+        <p>Lorem ipsum dolor sit amet. Look at these options</p>
+        <div class="input-group">
+          <input type="text" class="input" placeholder="See who's hiring..." />
+          <button class="btn btn--accent">
+            <img
+              src="/Project/images/pirateLogo.png"
+              alt="Skull and bones logo"
+              class="icon .icon--white"
+            />
+            Search
+          </button>
+        </div>
+      </header>
+      <ul class="list block-domain__prices">
+        <li><span class="badge badge--secondary">Blackbeard</span></li>
+        <li>Redbeard</li>
+        <li>Bluebeard</li>
+        <li>Whitebeard</li>
+        <li>Sockface</li>
+        <li>Peggy</li>
+      </ul>
+    </section>
+
+    <section class="block container block-plans">
+      <div class="grid grid--cols-3">
+        <div>
+          <div class="plan" data-aos="fade-up-right">
+            <div class="card card--secondary">
+              <header class="card__header">
+                <h3 class="plan__name">Entry</h3>
+                <span class="plan__price">£10</span>
+                <span class="plan__billing-cycle">/ Hour</span>
+                <span class="badge badge--secondary badge--small">Urgent!</span>
+                <span class="plan__description">Gotta begin somewhere!</span>
+              </header>
+              <div class="card__body">
+                <ul class="list list--tick">
+                  <li class="list__item">No experience required!</li>
+                  <li class="list__item">Free parking</li>
+                  <li class="list__item">Free fruit</li>
+                  <li class="list__item">Casual Fridays!</li>
+                </ul>
+                <a href="#" class="btn btn--outline btn--block">Apply Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="plan" data-aos="fade-up">
+            <div class="card card--primary plan--popular">
+              <header class="card__header">
+                <h3 class="plan__name">Entry</h3>
+                <span class="plan__price">£10</span>
+                <span class="plan__billing-cycle">/ Hour</span>
+                <span class="badge badge--primary badge--small">Urgent!</span>
+                <span class="plan__description">Gotta begin somewhere!</span>
+              </header>
+              <div class="card__body">
+                <ul class="list list--tick">
+                  <li class="list__item">No experience required!</li>
+                  <li class="list__item">Free parking</li>
+                  <li class="list__item">Free fruit</li>
+                  <li class="list__item">Casual Fridays!</li>
+                </ul>
+                <a href="#" class="btn btn--outline btn--block">Apply Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="plan" data-aos="fade-up-left">
+            <div class="card card--secondary">
+              <header class="card__header">
+                <h3 class="plan__name">Entry</h3>
+                <span class="plan__price">£10</span>
+                <span class="plan__billing-cycle">/ Hour</span>
+                <span class="badge badge--secondary badge--small">Urgent!</span>
+                <span class="plan__description">Gotta begin somewhere!</span>
+              </header>
+              <div class="card__body">
+                <ul class="list list--tick">
+                  <li class="list__item">No experience required!</li>
+                  <li class="list__item">Free parking</li>
+                  <li class="list__item">Free fruit</li>
+                  <li class="list__item">Casual Fridays!</li>
+                </ul>
+                <a href="#" class="btn btn--outline btn--block">Apply Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block container">
+      <header class="block__header">
+        <h2>Our adventures so far</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, ex.
+        </p>
+      </header>
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content" data-aos="zoom-in-right">
+          <img
+            src="/Project/images/pirateLogo.png"
+            alt="Skull and bones logo"
+            class="icon icon--white"
+          />
+          <h3 class="feature__heading">Yo Ho Ho!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            nisi suscipit cumque repellat aliquam sunt?
+          </p>
+          <a href="#" class="link-arrow">Learn More </a>
+        </div>
+        <div>
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                /Project/images/ship.webp    1x,
+                /Project/images/ship@2x.webp 2x
+              " />
+            <source
+              type="image/png"
+              srcset="
+                /Project/images/ship.png    1x,
+                /Project/images/ship@2x.png 2x
+              " />
+            <img class="feature__image" src="/" alt=""
+          /></picture>
+        </div>
+      </article>
+
+      <article class="grid grid--cols-2 feature">
+        <div class="feature__content" data-aos="zoom-in-left">
+          <img
+            src="/Project/images/pirateLogo.png"
+            alt="Skull and bones logo"
+            class="icon icon--white"
+          />
+          <h3 class="feature__heading">Yo Ho Ho!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            nisi suscipit cumque repellat aliquam sunt?
+          </p>
+          <a href="#" class="link-arrow">Learn More </a>
+        </div>
+        <div>
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                /Project/images/ship.webp    1x,
+                /Project/images/ship@2x.webp 2x
+              " />
+            <source
+              type="image/png"
+              srcset="
+                /Project/images/ship.png    1x,
+                /Project/images/ship@2x.png 2x
+              " />
+            <img class="feature__image" src="/" alt=""
+          /></picture>
+        </div>
+      </article>
+    </section>
+
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2 class="block__heading">All around the world!</h2>
+      </header>
+      <div class="container grid grid--cols-2">
+        <picture class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="
+              /Project/images/world.webp    1x,
+              /Project/images/world@2x.webp 2x
+            "
+          />
+          <source
+            type="image/png"
+            srcset="
+              /Project/images/world.png    1x,
+              /Project/images/world@2x.png 2x
+            "
+          />
+
+          <img src="/Project/images/world.webp" alt="" />
+        </picture>
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <img
+                  src="/Project/images/pirateLogo.png"
+                  alt="Skull and bones logo"
+                  class="icon icon--small"
+                />
+              </div>
+              <div class="media__body" data-aos="zoom-in-right">
+                <h3 class="media__title">3 Step program</h3>
+                <p>
+                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Non, ullam.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <img
+                  src="/Project/images/pirateLogo.png"
+                  alt="Skull and bones logo"
+                  class="icon icon--small"
+                />
+              </div>
+              <div class="media__body" data-aos="zoom-in-right">
+                <h3 class="media__title">3 Step program</h3>
+                <p>
+                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Non, ullam.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <img
+                  src="/Project/images/pirateLogo.png"
+                  alt="Skull and bones logo"
+                  class="icon icon--small"
+                />
+              </div>
+              <div class="media__body" data-aos="zoom-in-right">
+                <h3 class="media__title">3 Step program</h3>
+                <p>
+                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Non, ullam.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block container" data-aos="zoom-in">
+      <header class="block__header">
+        <h2>What our hires are saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+          error.
+        </p>
+      </header>
+      <div class="card testimonial">
+        <div class="grid grid--cols-2">
+          <div class="testimonial__image">
+            <img src="/Project/images/man.jpg" alt="a happy, employed person" />
+            <span class="icon-container icon-container--body">
+              <svg class="icon icon--small icon--white">
+                <use xlink:href="./Project/images/spriteA.svg#ten"></use>
+              </svg>
+            </span>
+          </div>
+          <div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, fugiat.
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon .icon--primary quote__image">
+                      <use xlink:href="./Project/images/spriteA.svg#zero"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">John Doe</h3>
+                    <p class="quote__organization">HTML Rockstar</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block container" data-aos="zoom-in">
+      <div class="callout callout--primary">
+        <div class="grid grid--cols-2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Are you ready?</h2>
+            <p>
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Incidunt, odio.
+            </p>
+          </div>
+          <a class="btn btn--secondary btn--stretched" href="">Get started</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <div class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">Our Crews</h3>
+
+            <svg class="icon icon--primary collapsible__arrow">
+              <use xlink:href="/Project/images/spriteB.svg#arrow"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="list__item"><a href="#">Best</a></li>
+              <li class="list__item"><a href="#">Popular</a></li>
+              <li class="list__item"><a href="#">Highest Paying</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">Terms</h3>
+            <svg class="icon icon--primary collapsible__arrow">
+              <use xlink:href="/Project/images/spriteB.svg#arrow"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="list__item"><a href="#">Wages</a></li>
+              <li class="list__item"><a href="#">Booty</a></li>
+              <li class="list__item"><a href="#">Extras</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">About Us</h3>
+
+            <svg class="icon icon--primary collapsible__arrow">
+              <use xlink:href="/Project/images/spriteB.svg#arrow"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="list__item"><a href="#">Contact</a></li>
+              <li class="list__item"><a href="#">Address</a></li>
+              <li class="list__item"><a href="#">Legal</a></li>
+            </ul>
+          </div>
+        </section>
+        <div class="footer__brand">
+          <img src="Project/images/pirateLogo.png" alt="" />
+          <p class="footer__copyright">Copyright 2022 Ben Wingrove</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/Project/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
