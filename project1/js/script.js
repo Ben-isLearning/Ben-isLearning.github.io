@@ -703,7 +703,7 @@ var populationButton = L.easyButton({
     {
       stateName: "publicHolidayButton",
       icon: '<span class="star">&starf;</span>',
-      title: "Show Public Holidays for 2022",
+      title: "Show current population",
       onClick: function () {
         getPopulation();
       },
