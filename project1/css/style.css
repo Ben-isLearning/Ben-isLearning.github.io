@@ -1,0 +1,12 @@
+#map {
+  height: 100vh;
+}
+
+#country {
+  display: none;
+}
+
+/*Buttons */
+.star {
+  font-size: 1.5em;
+}

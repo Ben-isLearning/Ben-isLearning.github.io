@@ -1,0 +1,83 @@
+{
+  "data": {
+    "timezone": {
+      "id": "Europe/London",
+      "current_time": "2022-10-13T15:50:47+01:00",
+      "code": "BST",
+      "is_daylight_saving": true,
+      "gmt_offset": 3600
+    },
+    "ip": "92.40.168.155",
+    "type": "v4",
+    "connection": {
+      "asn": 206067,
+      "organization": "Three",
+      "isp": "Hutchison 3G UK Limited"
+    },
+    "location": {
+      "geonames_id": null,
+      "latitude": 51.426658630371094,
+      "longitude": -0.987529993057251,
+      "zip": "RG2 6GP",
+      "continent": {
+        "code": "EU",
+        "name": "Europe",
+        "name_translated": "Europe"
+      },
+      "country": {
+        "alpha2": "GB",
+        "alpha3": "GBR",
+        "calling_codes": ["+44"],
+        "currencies": [
+          {
+            "symbol": "£",
+            "name": "British Pound Sterling",
+            "symbol_native": "£",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "GBP",
+            "name_plural": "British pounds sterling"
+          }
+        ],
+        "emoji": "🇬🇧",
+        "ioc": "GBR",
+        "languages": [
+          {
+            "name": "English",
+            "name_native": "English"
+          },
+          {
+            "name": "Cornish",
+            "name_native": "Kernewek"
+          },
+          {
+            "name": "Irish",
+            "name_native": "Gaeilge"
+          },
+          {
+            "name": "Gaelic",
+            "name_native": "Gaelic"
+          },
+          {
+            "name": "Welsh",
+            "name_native": "Cymraeg"
+          }
+        ],
+        "name": "United Kingdom",
+        "name_translated": "United Kingdom",
+        "timezones": ["Europe/London"],
+        "is_in_european_union": false
+      },
+      "city": {
+        "name": "Reading",
+        "name_translated": "Reading"
+      },
+      "region": {
+        "fips": null,
+        "alpha2": null,
+        "name": "England",
+        "name_translated": "England"
+      }
+    }
+  }
+}
