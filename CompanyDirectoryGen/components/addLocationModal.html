@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="modal fade show"
+      id="addModal"
+      aria-labelledby="addModalLabel"
+      tabindex="-1"
+      data-bs-backdrop="static"
+      style="display: block"
+      aria-modal="true"
+      role="dialog"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 id="addModalLabel" class="modal-title fs-5">Add Location</h1>
+          </div>
+          <div id="addModalBody" class="w-75 modal-body mx-auto">
+            <form>
+              <div class="d-flex row-flex m-3">
+                <label class="form-label col-4">Name</label
+                ><input id="userAddName" class="form-control" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <div id="addWarning"></div>
+            <button
+              id="abortAdd"
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Abort
+            </button>
+            <button
+              id="proposeAdd"
+              type="button"
+              class="btn btn-primary disabled"
+              data-bs-toggle="modal"
+              data-bs-target="#confirmAddModal"
+            >
+              Propose Changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
